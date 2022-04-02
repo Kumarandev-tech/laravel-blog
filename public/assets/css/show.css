@@ -1,0 +1,135 @@
+.close-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.close-icon {
+    cursor: pointer;
+    opacity: 0;
+    width: 20px;
+}
+
+.close-icon:hover {
+    opacity: 1;
+}
+
+.post-section {
+    overflow: hidden;
+    position: relative;
+}
+
+.post-image:hover .close-icon {
+    opacity: 0.9;
+    transition-delay: 0.5s;
+}
+
+.badge {
+    border-radius: 1.25rem !important;
+}
+
+.post-details {
+    display: flex;
+    jalign-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.post-line {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.card-header {
+    padding: 0px;
+}
+
+.d-md-block {
+    padding-left: 8px;
+}
+
+.post-comment {
+    position: absolute;
+    right: 12px;
+}
+
+.date {
+    font-size: 11px;
+}
+
+.comment-text {
+    font-size: 12px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.shadow-none {
+    box-shadow: none;
+}
+
+.name {
+    color: #007bff;
+}
+
+.cursor:hover {
+    color: blue;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.textarea {
+    resize: none;
+}
+
+.fa-facebook {
+    color: #3b5999;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-linkedin {
+    color: #0077b5;
+}
+
+.fa-instagram {
+    color: #e305f;
+}
+
+.fa-dribbble {
+    color: #ea3c89;
+}
+
+.fa-pinterest {
+    color: #bd081c;
+}
+
+.fa {
+    cursor: pointer;
+}
+
+.comment-box {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.image-upload i {
+    margin-top: 16px;
+    font-size: 3em;
+    color: #0a58ca;
+}
+
+.image-upload input {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    bottom: 70%;
+    left: 27%;
+    right: 66%;
+}

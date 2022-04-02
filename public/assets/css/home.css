@@ -1,0 +1,42 @@
+.close-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.close-icon {
+    cursor: pointer;
+    opacity: 0;
+    width: 20px;
+}
+
+.close-icon:hover {
+    opacity: 1;
+}
+
+.post-section {
+    overflow: hidden;
+    position: relative;
+}
+
+.post-image:hover .close-icon {
+    opacity: 0.9;
+    transition-delay: 0.5s;
+}
+
+.badge {
+    border-radius: 1.25rem !important;
+}
+
+.post-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.post-line {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
